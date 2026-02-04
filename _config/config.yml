@@ -1,1 +1,14 @@
 # see https://docs.silverstripe.org/en/developer_guides/configuration/configuration/
+---
+Name: branding
+---
+SilverStripe\CMS\Model\SiteTree:
+  meta_generator: "Made with aroha in Aotearoa by Sunny Side Up (www.sunnysideup.co.nz)"
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - "sunnysideup/branding: client/dist/main.css"
+  help_links:
+    "Developer docs": ""
+    "Community": ""
+    "Feedback": ""

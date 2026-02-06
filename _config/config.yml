@@ -1,6 +1,8 @@
 # see https://docs.silverstripe.org/en/developer_guides/configuration/configuration/
 ---
 Name: branding
+Except:
+  envvarset: SS_WHITE_LABEL_ONLY
 ---
 SilverStripe\CMS\Model\SiteTree:
   meta_generator: "Made with aroha in Aotearoa by Sunny Side Up (www.sunnysideup.co.nz)"

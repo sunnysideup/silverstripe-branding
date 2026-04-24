@@ -12,7 +12,7 @@
     "silverstripe/admin": "^3.0"
   },
   "require-dev": {
-    "sunnysideup/sswebpack_engine_only": "^5.0-dev",
+    "sunnysideup/sswebpack_engine_only": "dev-main",
     "silverleague/ideannotator": "*",
     "phpunit/phpunit": "^9.6",
     "squizlabs/php_codesniffer": "^3.7",
